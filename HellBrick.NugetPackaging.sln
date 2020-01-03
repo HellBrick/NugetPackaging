@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellBrick.NugetPackaging", "HellBrick.NugetPackaging\HellBrick.NugetPackaging.csproj", "{5E5B46D4-0E2E-408E-B04B-5B256153D46B}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellBrick.NugetPackaging.Core", "HellBrick.NugetPackaging.Core\HellBrick.NugetPackaging.Core.csproj", "{0730A841-3A0E-4FD0-ACA9-4C39BBA0976F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C295D791-1F2C-4C51-8406-90E46CCC03E5}"
@@ -16,6 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E5B46D4-0E2E-408E-B04B-5B256153D46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5B46D4-0E2E-408E-B04B-5B256153D46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5B46D4-0E2E-408E-B04B-5B256153D46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5B46D4-0E2E-408E-B04B-5B256153D46B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0730A841-3A0E-4FD0-ACA9-4C39BBA0976F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0730A841-3A0E-4FD0-ACA9-4C39BBA0976F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0730A841-3A0E-4FD0-ACA9-4C39BBA0976F}.Release|Any CPU.ActiveCfg = Release|Any CPU
