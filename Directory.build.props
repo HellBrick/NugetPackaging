@@ -1,0 +1,9 @@
+﻿<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="HellBrick.Diagnostics" Version="4.0.0" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
