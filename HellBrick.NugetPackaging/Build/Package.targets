@@ -1,0 +1,12 @@
+﻿<Project TreatAsLocalProperty="TaskFolder;TaskAssembly;CurrentTag">  
+  <Target Name="HelloWorld" BeforeTargets="$(PackDependsOn)">
+    <Message Text="Help, I'm being invoked!!!" Importance="high" />
+  </Target>
+  
+  <Target Name="GetVersion" BeforeTargets="$(PackDependsOn)">
+    <GetCurrentTagTask>
+      <Output TaskParameter="CurrentTag" PropertyName="CurrentTag"></Output>
+    </GetCurrentTagTask>
+    <Message Text="$(CurrentTag)" Importance="high" />
+  </Target>
+</Project>

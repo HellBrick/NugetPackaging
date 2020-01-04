@@ -1,0 +1,9 @@
+﻿<Project TreatAsLocalProperty="TaskFolder;TaskAssembly">
+  <PropertyGroup>
+    <TaskFolder>netstandard2.0</TaskFolder>
+    <TaskAssembly>$(MSBuildThisFileDirectory)..\tasks\$(TaskFolder)\HellBrick.NugetPackaging.dll</TaskAssembly>
+  </PropertyGroup>
+
+  <UsingTask TaskName="GetCurrentTagTask" AssemblyFile="$(TaskAssembly)" />
+  <UsingTask TaskName="GenerateReleaseNotesTask" AssemblyFile="$(TaskAssembly)" />
+</Project>
